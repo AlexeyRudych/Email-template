@@ -1,0 +1,130 @@
+@import "foundation";
+
+$hr1: #d5d5d4!important;
+$hr2: #e6e5e5;
+$hr3: #f2f2f1;
+$hr4: #fbfbfb;
+$decorateLineColor: #b5b5b7;
+
+@font-face{
+  font-family: Roboto;
+  src: url(https://fonts.googleapis.com/css?family=Roboto); 
+  } 
+
+h1{
+  padding: 0!important;
+  font-size: 15px!important;
+  margin: 0!important;
+}
+h2{
+  padding: 0!important;
+  font-size: 14px!important;
+  margin: 0!important;
+}
+.paddingnone{
+padding-left: 0!important;
+}
+p{
+  font-family: 'Roboto', sans-serif!important;
+  font-size: 15px;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.nav{
+  padding-left: 10px;
+  font-size: 15px!important;
+}
+
+.first{
+  padding-left: 30px!important;
+}
+.last{
+   padding-right: 30px!important;
+}
+.hr0{
+  width: 100%;
+  height: 1px;
+}
+.hr1{
+  background: $hr1;
+}
+.hr2{
+  background: $hr2;
+}
+.hr3{
+  background: $hr3;
+}
+.hr4{
+  background: $hr4;
+}
+.logo{
+  width: 95px;
+  padding-left: 2px;
+}
+.contentImg{
+  width: 600px;
+}
+.decorateline12{
+  height: 1px;
+  background: $decorateLineColor;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.contentH1{
+  padding-left: 70px;
+}
+.contentBorder{
+  border-right: 1px solid $decorateLineColor;
+  border-left: 1px solid $decorateLineColor;
+}
+.paddingleftContent{
+  padding-left: 10px!important;
+}
+.nonepadding{
+  padding-left: 0px!important;
+}
+.paddingleft{
+padding-left: 23px!important;
+}
+.paddingright{
+  padding-right: 23px!important;
+}
+.paddingleftS{
+padding-left: 25px!important;
+}
+.visa img{
+width: 48px;
+padding-left: 40px;
+}
+.paypal img{
+width: 72px;
+padding-left: 30px;
+}
+.mastercard img{
+width: 36px;
+padding-left: 35px;
+}
+.link{
+  font-size: 11px;
+  text-decoration: underline;
+  color: #7d7d7d;
+}
+.footerColorText{
+  color: #7d7d7d!important;
+}
+
+.no-bg {
+  background: transparent !important;
+}
+.custom-pb {
+  padding-bottom: 10px !important;
+}
+.tiny-text {
+  font-size: 12px;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
